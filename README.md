@@ -1,1 +1,1 @@
-# fastapi-basics-code
+"Hotel API project practice using FastAPI" 

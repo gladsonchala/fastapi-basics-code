@@ -1,10 +1,13 @@
-from sqlalchemy import Column, Integer, String
+from sqlalchemy.orm import relationship
+from sqlalchemy.sql.schema import ForeignKey
+from sqlalchemy.sql.sqltypes import Integer, String, Boolean
 from db.database import Base
+from sqlalchemy import Column
 
-# Its datas and values are using '=' equal sign, not ':' colon sign
+
 class DBUser(Base):
-    __tablename__ = 'users'
-    id = Column(Integer, primary_key=True, index=True)
-    username = Column(String)
-    email = Column(String)
-    password = Column(String)
+  __tablename__ = 'users'
+  id = Column(Integer, primary_key=True, index=True)
+  username = Column(String)
+  password = Column(String)
+

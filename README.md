@@ -1,1 +1,4 @@
-"Hotel API project practice using FastAPI" 
+### FastAPI basics code
+
+https://github.com/gladsonchala/fastapi-basics
+mirror
